@@ -7,6 +7,7 @@ namespace RP0
     public class UIBase
     {
         protected GUIStyle rightLabel, boldLabel, boldRightLabel, pressedButton;
+
         public UIBase()
         {
             rightLabel = new GUIStyle(HighLogic.Skin.label);
@@ -22,7 +23,7 @@ namespace RP0
         public enum tabs
         { 
             Maintenance, Facilities, Integration, Astronauts, Tooling, ToolingType, 
-            Training, Courses, NewCourse, Naut, Avionics, CareerLog
+            Training, Courses, NewCourse, Naut, Avionics, CareerLog, Budget
         };
 
         protected bool showTab(tabs tab)
@@ -41,6 +42,7 @@ namespace RP0
                     return HighLogic.LoadedScene == GameScenes.SPACECENTER;
                 case tabs.Training:
                 case tabs.Courses:
+                case tabs.Budget:
                 case tabs.NewCourse:
                 case tabs.Naut:
                 case tabs.CareerLog:
