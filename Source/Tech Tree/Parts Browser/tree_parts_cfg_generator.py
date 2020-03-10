@@ -51,5 +51,5 @@ def generate_part_config(part, module_tags_with_prefixes):
             module_tags = "\n" + module_tags + "\n"
         return module_part_config_template.substitute(name=part['name'], mod=part['mod'], technology=part['technology'], cost=part['cost'], entry_cost=part['entry_cost'], rp0_conf=str(part['rp0_conf']).lower(), is_non_proc=str(part['is_non_proc']).lower(), module_tags=module_tags)
     except:
-        print("Missing fields for .json of part named", part['name'], "! Aborting config generation.")
+        print("Missing fields for .json of part named", part['name'], "from mod", part['mod'], "! Aborting config generation.")
         exit()
