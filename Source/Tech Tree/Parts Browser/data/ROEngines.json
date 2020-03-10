@@ -5165,6 +5165,7 @@
         "ro": true,
         "orphan": false,
         "rp0_conf": true,
+        "is_non_proc": false,
         "spacecraft": "Titan",
         "engine_config": "",
         "upgrade": false,
