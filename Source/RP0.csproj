@@ -42,6 +42,7 @@
     <Compile Include="CareerLog\LaunchEvent.cs" />
     <Compile Include="CareerLog\LogPeriod.cs" />
     <Compile Include="CareerLog\TechResearchEvent.cs" />
+    <Compile Include="Budget\BudgetHandler.cs" />
     <Compile Include="Crew\ActiveCourse.cs" />
     <Compile Include="Crew\CourseTemplate.cs" />
     <Compile Include="Crew\CrewHandlerSettings.cs" />
@@ -119,44 +120,55 @@
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
       <Private>False</Private>
+      <HintPath>..\..\kspReferences\1.8.1\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
       <Private>False</Private>
+      <HintPath>..\..\kspReferences\1.8.1\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="ModularFlightIntegrator">
       <Private>False</Private>
+      <HintPath>..\..\kspReferences\1.8.1\ModularFlightIntegrator.dll</HintPath>
     </Reference>
     <Reference Include="RealFuels">
       <Private>False</Private>
+      <HintPath>..\..\kspReferences\1.8.1\RealFuels.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine">
       <Private>False</Private>
+      <HintPath>..\..\kspReferences\1.8.1\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
+      <HintPath>..\..\kspReferences\1.8.1\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
+      <HintPath>..\..\kspReferences\1.8.1\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
+      <HintPath>..\..\kspReferences\1.8.1\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
+      <HintPath>..\..\kspReferences\1.8.1\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <Private>False</Private>
+      <HintPath>..\..\kspReferences\1.8.1\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <Private>False</Private>
+      <HintPath>..\..\kspReferences\1.8.1\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
