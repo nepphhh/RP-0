@@ -40,7 +40,6 @@ namespace RP0
                     return HighLogic.LoadedScene == GameScenes.SPACECENTER && HighLogic.CurrentGame.Mode == Game.Modes.CAREER;
                 case tabs.Tooling:
                 case tabs.ToolingType:
-                case tabs.Contracts:
                     return HighLogic.CurrentGame.Mode == Game.Modes.CAREER;
                 case tabs.Avionics:
                     return HighLogic.LoadedSceneIsEditor;
