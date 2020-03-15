@@ -113,9 +113,6 @@ namespace RP0
                         case tabs.CareerLog:
                             logUI.RenderTab();
                             break;
-                        case tabs.Contracts:
-                            contractUI.ContractTab();
-                            break;
                         default: // can't happen
                             break;
                         }
